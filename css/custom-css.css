@@ -1,12 +1,3 @@
-@font-face {
-    font-family: codec-pro;
-    src: url(../fonts/codec-pro.regular.ttf);
-}
-
-html body {
-    font-family: codec-pro;
-}
-
 .teks-responsive {
     text-align: center;
 }
