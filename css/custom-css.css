@@ -1,0 +1,147 @@
+@font-face {
+    font-family: codec-pro;
+    src: url(../fonts/codec-pro.regular.ttf);
+}
+
+html body {
+    font-family: codec-pro;
+}
+
+.teks-responsive {
+    text-align: center;
+}
+
+#jumbotron-1 {
+    margin-top: 46px;
+}
+
+#jumbotron-1 .caption-1 .h1{
+    font-size: 1.5rem;
+}
+
+#jumbotron-1 .caption-1 {
+    margin-top: 0px;
+}
+
+#jumbotron-2 .caption-2 {
+    margin-top: 0px;
+}
+
+#jumbotron-2 .caption-2 .h2 {
+    font-size: 1rem;
+}
+
+.tmbl-scroll {
+    bottom: 30px;
+    right: 30px;
+    z-index: 1070;
+}
+
+.gambar-kolapse {
+    position: static;
+}
+
+#jumbotron-3 .kolapse-1 {
+    position: static;
+    margin-bottom: 20px;
+}
+
+#jumbotron-3 .kolapse-2 {
+    position: static;
+}
+
+#jumbotron-3 .jarak {
+    margin-bottom: 20px;
+}
+
+.container-bg {
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#jumbotron-4 .nav-item .nav-link {
+    color: rgb(37, 37, 37);
+    font-weight: bold;
+}
+
+#jumbotron-4 .nav-item .nav-link.active {
+    background-color: #17a2b8;
+    color: white;
+}
+
+#jumbotron-4 .sosmed a {
+    color: #17a2b8;
+}
+
+#jumbotron-4 .sosmed .btn:hover a {
+    color: white;
+}
+
+.copyright-footer {
+    background-color: #0d5763;
+}
+
+.footer-margin-bwh {
+    margin-bottom: 56px;
+}
+
+
+
+
+@media (min-width: 992px) {
+
+    .teks-responsive {
+        text-align: left;
+    }
+
+    #jumbotron-1 {
+        margin-top: 70px;
+    }
+
+    #jumbotron-1 .caption-1 {
+        margin-top: 80px;
+    }
+
+    #jumbotron-1 .caption-1 .h1{
+        font-size: 2.5rem;
+    }
+
+    #jumbotron-2 .caption-2 {
+        margin-top: 80px;
+    }
+
+    #jumbotron-2 .caption-2 .h2 {
+        font-size: 2rem;
+    }
+
+    .gambar-kolapse {
+        position: relative;
+    }
+    
+    #jumbotron-3 .kolapse-1 {
+        position: absolute;
+        margin-bottom: 0px;
+        bottom: 120px;
+        left: 50px;
+        width: 20rem;
+    }
+
+    #jumbotron-3 .jarak {
+        margin-bottom: 0px;
+    }
+    
+    #jumbotron-3 .kolapse-2 {
+        position: absolute;
+        top: 120px;
+        left: 200px;
+        width: 20rem;
+
+    }
+
+    .footer-margin-bwh {
+        margin-bottom: 0px;
+    }
+    
+
+}
